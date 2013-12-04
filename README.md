@@ -70,6 +70,11 @@ Options
 
 In the Save dialog, there are export options on the left side. Krzysztof included a checkbox to include all objects in scene or just the selected object. That's useful, so I left it intact. I added another option, which will scale the model so that the widest part of the object in any axis would match the value provided. Set it to zero if you don't want to use this feature.
 
+Good to know
+------------
+
+I have experienced models where the exporter has output blank texture coordinates (all zeros). If this happens to you, the fix may be as easy as checking the "Object Data > UV Maps" option in Blender. Thanks to Mariano Patafio for bringing this up so I can add this info.
+
 Comments and suggestions
 ------------------------
 
